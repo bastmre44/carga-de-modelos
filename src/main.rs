@@ -1,5 +1,6 @@
 mod framebuffer;
 mod obj_loader;
+mod triangle;
 
 fn main() {
     let model = match obj_loader::load_obj("Nave_final.obj") {
